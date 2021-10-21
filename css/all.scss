@@ -228,38 +228,8 @@ a {
 }
 
 @media (max-width: 414px) {
-    .nav-header {
-        flex-direction: column;
-
-        .logo {
-            margin: 20px auto;
-        }
-    
-        .nav-header-menu {  // ul
-            width: 100%;
-            flex-wrap: wrap;
-            padding-right: 0;
-
-            li {
-                width: 100%;
-                margin-left: 0;
-                text-align: center;
-
-                a {
-                    padding: 18px 0 15px 0;
-                }
-            }
-        }
-    }
-
-    .content {
-        flex-wrap: wrap;
-
-        .content-course {
-            width: 90%;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
+    .nav-header .nav-header-menu li {
+        width: 100%;
     }
 }
 

@@ -256,37 +256,8 @@ a {
 }
 
 @media (max-width: 414px) {
-  .nav-header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .nav-header .logo {
-    margin: 20px auto;
-  }
-  .nav-header .nav-header-menu {
-    width: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding-right: 0;
-  }
   .nav-header .nav-header-menu li {
     width: 100%;
-    margin-left: 0;
-    text-align: center;
-  }
-  .nav-header .nav-header-menu li a {
-    padding: 18px 0 15px 0;
-  }
-  .content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .content .content-course {
-    width: 90%;
-    margin-bottom: 20px;
-    border-radius: 10px;
   }
 }
 /*# sourceMappingURL=all.css.map */
